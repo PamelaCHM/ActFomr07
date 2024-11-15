@@ -1,0 +1,151 @@
+*{/*Para que en todos los navegadores se conserve el mismo formato, no varíe:*/
+    margin: 0px;
+    padding: 0px;
+}
+
+header,section, footer,aside, nav, article, figure, figcaption,hgroup{
+    display: block; /*Para que cada uno se comporto como un bloque diferete*/
+}
+
+body{
+    text-align: center;
+}
+
+#todo{
+    width: 100%;
+    margin: 15px auto;
+}
+
+#cabecera{
+    width: 90%;
+    height: 100px;
+    margin: 1px auto;
+    background-color: #f0dcf0;
+    border: 2px solid #bbb4b4;
+    display: flex; /* Activar Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; 
+}
+
+#menu1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+    margin: 15px 0px 5px 0px;
+}
+
+#menu1 a{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 10px 15px; 
+    background-color: #af9999; 
+    margin: 0px 5px;/*Para el espacio entre ellos*/
+}
+
+#menu1 a:hover {
+    background-color: #f0dcf0; /* Cambia el color de fondo al pasar el mouse */
+    color: black;
+}
+
+#Seccion{
+    display: flex; 
+    justify-content: center;
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+#columna{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0dcf0;
+    border: 2px solid #bbb4b4;
+    width: 40%;
+    height: 20%;
+    gap: 30px;
+}
+
+#menu2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px;
+}
+
+#menu2 a{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 10px; 
+    background-color: #af9999; 
+    margin: 5px 0px;/*Para el espacio entre ellos*/
+}
+
+#menu2 a:hover {
+    background-color: #f0dcf0; /* Cambia el color de fondo al pasar el mouse */
+    color: black;
+}
+
+#texto{
+    text-align: center;
+}
+
+#art1{
+    background-color: #f0f0f0;
+    margin: 0% 2% 0% 0% ;
+}
+
+#art2{
+    background-color: #f0f0f0;
+    margin: 0% 2% 0% 0% ;
+}
+
+hgroup {
+    display: flex; 
+    flex-direction: column; /* Los elementos están uno debajo del otro */
+    align-items: flex-start; /* Alinea todos los elementos al inicio del contenedor */
+    gap: 20px; /* Espacio uniforme entre los encabezados */
+}
+
+h2, h3, h4 {
+    margin: 0; 
+    text-align: left; 
+}
+
+h3 {
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h4 {
+    font-size: 100%;
+    color: #6d6767;
+}
+
+figcaption{
+    margin: 5% 25% 5% 5%;
+}
+
+#video{
+    margin: 5% 50% 5% 5%;
+}
+
+.pie{
+    clear: both;
+    margin: 5% 5% 5% 60%;
+    font-size:100%;
+}
+
+#finPagina{
+    border-top: 2px solid #bbb4b4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: larger;
+}
+
+#p{
+    margin-top: 1%;
+}
